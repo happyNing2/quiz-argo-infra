@@ -15,10 +15,10 @@ spec:
     spec:
       containers:
       - name: boot-con
-        image: na2na8/quiz02-back:1.0 ## 여기
+        image: na2na8/quiz02-back:1.0
         resources:
           limits:
             memory: "300Mi"
             cpu: "500m"
         ports:
-        - containerPort: 80
+        - containerPort: 10000
